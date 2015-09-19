@@ -1,0 +1,29 @@
+﻿IDI_MAIN_ICON   ICON        "empty-win32-app.ico"
+
+#define VER 1,0,0,0
+#define VER_STR "1.0.0"
+#define NAME "empty-win32-app"
+1 VERSIONINFO
+FILEVERSION     VER
+PRODUCTVERSION  VER
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "github.com/jarod"
+      VALUE "FileDescription", NAME
+      VALUE "FileVersion", VER_STR
+      VALUE "InternalName", NAME
+      VALUE "LegalCopyright", "Jarod Liu<liuyuanzhi@gmail.com>"
+      VALUE "OriginalFilename", "empty-win32-app.exe"
+      VALUE "ProductName", NAME
+      VALUE "ProductVersion", VER_STR
+    END
+  END
+
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1200
+  END
+END
